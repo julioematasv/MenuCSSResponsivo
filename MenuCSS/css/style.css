@@ -1,0 +1,81 @@
+
+/* ====== Estilos  Base ========= */
+
+* {
+  margin: 0; padding: 0; box-sizing: border-box;
+}
+
+html { font-size: 62.5%;}
+
+body { 
+  font-size: 1.6rem; 
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(38deg, #000428, #004e92);
+  background-repeat: no-repeat;
+  color: #fafafa;
+}
+
+a {	text-decoration: none; color: #fafafa; }
+
+a img, iframe {	border: none; }
+
+ul { list-style: none; }
+
+
+/* === Estilos Secc. Nav ==== */
+/* Inicio de menú Mobile */
+.container {}
+
+.nav {
+  display: flex;
+}
+
+.mobile {}
+
+.header {}
+
+.txt-logo {}
+
+.mobil {}
+
+.links {}
+/* Final de menú Mobile */
+
+/* Inicio de menú Desktop */
+.desktop {}
+
+nav .desktop .logo {
+  min-width: 12rem;
+}
+nav .desktop .logo img {
+  width: 8rem;
+}
+
+.primary {}
+
+.secondary {}
+
+.full {}
+
+/* Inicio de menú otras opciones */
+.mini {}
+
+.more {}
+
+.submenu {}
+
+/* === Estilos Secc. Main ==== */
+.main {}
+
+
+/* === Estilos Secc. Footer ==== */
+.footer {}
+
+/* ====== Estilos Media Querys ========= */
+@media (max-width: 37.5rem) {
+  body {
+    font-size: 1.2rem;
+  }
+}
+
