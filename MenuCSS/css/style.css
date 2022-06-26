@@ -28,10 +28,13 @@ ul { list-style: none; }
 .container {}
 
 .nav {
+  height: 15rem;
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.mobile {}
+nav .mobile {display: none;}
 
 .header {}
 
@@ -43,13 +46,20 @@ ul { list-style: none; }
 /* Final de menú Mobile */
 
 /* Inicio de menú Desktop */
-.desktop {}
+nav .desktop {
+  display: flex;
+}
 
 nav .desktop .logo {
   min-width: 12rem;
 }
 nav .desktop .logo img {
   width: 8rem;
+}
+
+nav .desktop .primary a,
+nav .desktop .secondary a {
+  padding: 1rem 2rem;
 }
 
 .primary {}
@@ -59,7 +69,9 @@ nav .desktop .logo img {
 .full {}
 
 /* Inicio de menú otras opciones */
-.mini {}
+nav .desktop .secondary.mini {
+  display: none;
+}
 
 .more {}
 
